@@ -7,7 +7,7 @@ import './styles/global.css';
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename="/portfolio">
       <Routes>
         <Route path="/"  Component={Portfolio} />
       </Routes>

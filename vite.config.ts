@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 
+// הגדרת base בצורה נכונה, כלומר '/portfolio-site/'
 export default defineConfig({
-  base: '/portfolio',  // ודא שהנתיב שלך כאן נכון
-  plugins: [react()]
+  base: '/portfolio/',  // הגדרת base כאן
+  plugins: [react()],
 })
