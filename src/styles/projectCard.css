@@ -1,0 +1,17 @@
+.github-link {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .github-link:hover {
+    color: #0366d6; /* צבע כחול שמתאים לגיטאב */
+  }
+  
+  .github-link svg {
+    margin-right: 8px; /* רווח בין האייקון לטקסט */
+  }
+  
