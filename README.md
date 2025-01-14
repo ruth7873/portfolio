@@ -104,6 +104,6 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ### Author
 
-[Your Name](https://github.com/<your-username>)
+[Ruth](https://github.com/ruth7873)
 
-Feel free to reach out via [email@example.com](mailto:email@example.com) for any inquiries or collaborations!
+Feel free to reach out via [ruth0533137873@gmail.com](mailto:ruth0533137873@gmail.com) for any inquiries or collaborations!
