@@ -12,7 +12,7 @@ export const fetchRepositories = async (query: string) => {
 };
 
 export const fetchRepositoriesbyUser = async (userName: string) => {
-  const token = import.meta.env.VITE_GITHUB_TOKEN;
+  const token = "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";
   const response = await fetch(`https://api.github.com/users/${userName}/repos`, {
     headers: {
       'Authorization': `Bearer ${token}`,
