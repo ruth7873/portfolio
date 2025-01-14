@@ -29,7 +29,7 @@ This project is a personal portfolio website designed to showcase projects and s
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/portfolio-site.git
+   git clone https://github.com/ruth7873/portfolio.git
    ```
 
 2. Navigate to the project directory:
@@ -64,7 +64,7 @@ This project is configured for deployment on GitHub Pages. To deploy:
 
 1. Update the `homepage` field in `package.json` to:
    ```json
-   "homepage": "https://<your-username>.github.io/portfolio-site"
+   "homepage": "https://<your-username>.github.io/portfolio"
    ```
 
 2. Run the deploy script:
@@ -72,7 +72,7 @@ This project is configured for deployment on GitHub Pages. To deploy:
    npm run deploy
    ```
 
-The website will be deployed to `https://<your-username>.github.io/portfolio-site`.
+The website will be deployed to `https://<your-username>.github.io/portfolio`.
 
 ## Customization
 
