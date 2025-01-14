@@ -104,6 +104,6 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ### Author
 
-[Ruth](https://github.com/ruth7873)
+[Ruth7873](https://github.com/ruth7873)
 
 Feel free to reach out via [ruth0533137873@gmail.com](mailto:ruth0533137873@gmail.com) for any inquiries or collaborations!
