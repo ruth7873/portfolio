@@ -5,5 +5,6 @@ export interface RepositoryInfo {
     PullRequests: number;
     Url: string;
     Languages: string[];
+    LiveDemoUrl: string;
   }
   
