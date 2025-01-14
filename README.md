@@ -1,50 +1,109 @@
-# React + TypeScript + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a personal portfolio website designed to showcase projects and skills. It is built using modern web development tools and practices, including React, TypeScript, and Vite. The site fetches live data from GitHub to display repositories and provides an interactive user experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Dynamic Project Showcase**: Automatically fetches repositories from your GitHub profile and displays them in an organized and visually appealing way.
+- **Search Functionality**: Allows users to filter projects by name.
+- **Responsive Design**: Optimized for desktop and mobile devices.
+- **Professional Styling**: Clean and modern user interface with customizable themes.
+- **GitHub Links**: Each project card includes a direct link to the respective GitHub repository.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React**: Front-end library for building the user interface.
+- **TypeScript**: For type-safe and maintainable code.
+- **Vite**: Fast and modern build tool.
+- **GitHub Pages**: Hosting the portfolio website.
+- **CSS Modules**: For scoped and maintainable styling.
 
-- Configure the top-level `parserOptions` property like this:
+## Setup Instructions
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### Prerequisites
+
+- Node.js (version 16 or above)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/portfolio-site.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd portfolio-site
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Development
+
+To start a local development server:
+```bash
+npm run dev
+```
+The website will be available at `http://localhost:5173`.
+
+### Build
+
+To build the project for production:
+```bash
+npm run build
+```
+The built files will be located in the `dist` directory.
+
+### Deployment
+
+This project is configured for deployment on GitHub Pages. To deploy:
+
+1. Update the `homepage` field in `package.json` to:
+   ```json
+   "homepage": "https://<your-username>.github.io/portfolio-site"
+   ```
+
+2. Run the deploy script:
+   ```bash
+   npm run deploy
+   ```
+
+The website will be deployed to `https://<your-username>.github.io/portfolio-site`.
+
+## Customization
+
+- Update the `fetchRepositoriesbyUser` function in `src/services/githubService.ts` to use your GitHub username.
+- Customize the design by modifying the CSS modules located in `src/styles/`.
+
+## Folder Structure
+
+```
+portfolio-site/
+├── src/
+│   ├── components/        # Reusable React components
+│   ├── services/          # API service for fetching GitHub data
+│   ├── styles/            # CSS modules
+│   ├── types/             # TypeScript type definitions
+│   └── App.tsx            # Main application entry point
+├── public/                # Static assets
+├── dist/                  # Production build files
+├── package.json           # Project configuration
+├── vite.config.ts         # Vite configuration
+└── README.md              # Project documentation
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## License
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+This project is open-source and available under the [MIT License](LICENSE).
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+---
+
+### Author
+
+[Your Name](https://github.com/<your-username>)
+
+Feel free to reach out via [email@example.com](mailto:email@example.com) for any inquiries or collaborations!
