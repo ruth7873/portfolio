@@ -1,5 +1,5 @@
 # Portfolio Website
-Check out the live demo of the project here: [Portfolio-Site](https://ruth7873.github.io/portfolio/)
+
 
 This project is a personal portfolio website designed to showcase projects and skills. It is built using modern web development tools and practices, including React, TypeScript, and Vite. The site fetches live data from GitHub to display repositories and provides an interactive user experience.
 
